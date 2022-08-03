@@ -1,0 +1,34 @@
+{
+  "name": "assert-plan",
+  "description": "The node assert library but with a plan method to check a certain amount of assertions are raised.",
+  "version": "1.0.0",
+  "type": "module",
+  "main": "lib/index.js",
+  "scripts": {
+    "test": "node test"
+  },
+  "keywords": [
+    "nodejs",
+    "assert",
+    "testing",
+    "plan",
+    "tap"
+  ],
+  "author": "Mark Wylde <me@markwylde.com> (https://github.com/markwylde)",
+  "license": "MIT",
+  "devDependencies": {
+    "test": "^3.2.1"
+  },
+  "directories": {
+    "lib": "lib",
+    "test": "test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/markwylde/assert-plan.git"
+  },
+  "bugs": {
+    "url": "https://github.com/markwylde/assert-plan/issues"
+  },
+  "homepage": "https://github.com/markwylde/assert-plan#readme"
+}
