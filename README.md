@@ -9,10 +9,10 @@ npm install --save-dev assert-plan
 ## Example Usage
 ```javascript
 import test from 'node:test';
-import plannedAssert from 'assert-plan';
+import assertPlan from 'assert-plan';
 
 test('test 1 assertion', async t => {
-  const assert = plannedAssert(1);
+  const assert = assertPlan(1);
 
   assert.strictEqual(1, 1);
 
@@ -20,7 +20,7 @@ test('test 1 assertion', async t => {
 });
 
 test('test 2 assertions will hang indefinitely', async t => {
-  const assert = plannedAssert(2);
+  const assert = assertPlan(2);
 
   assert.strictEqual(1, 1);
 
@@ -28,7 +28,7 @@ test('test 2 assertions will hang indefinitely', async t => {
 });
 
 test('test 2 assertions will timeout', async t => {
-  const assert = plannedAssert(2, { timeout: 2000 });
+  const assert = assertPlan(2, { timeout: 2000 });
 
   assert.strictEqual(1, 1);
 

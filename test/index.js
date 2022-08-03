@@ -1,8 +1,8 @@
 import test from 'test';
-import plannedAssert from '../lib/index.js';
+import assertPlan from '../lib/index.js';
 
 test('test', async t => {
-  const assert = plannedAssert(1);
+  const assert = assertPlan(1);
 
   assert.strictEqual(1, 1);
 
