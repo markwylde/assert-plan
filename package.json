@@ -1,7 +1,7 @@
 {
   "name": "assert-plan",
   "description": "The node assert library but with a plan method to check a certain amount of assertions are raised.",
-  "version": "1.0.1",
+  "version": "1.1.0",
   "type": "module",
   "main": "lib/index.js",
   "scripts": {
