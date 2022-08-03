@@ -9,7 +9,7 @@ npm install --save-dev assert-plan
 ## Example Usage
 ```javascript
 import test from 'node:test';
-import plannedAssert from '../lib/index.js';
+import plannedAssert from 'assert-plan';
 
 test('test', async t => {
   const assert = plannedAssert(1);
