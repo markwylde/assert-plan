@@ -1,6 +1,11 @@
 # assert-plan
 The node assert library but with a plan method to check a certain amount of assertions are raised.
 
+## Installation
+```
+npm install --save-dev assert-plan
+```
+
 ## Example Usage
 ```javascript
 import test from 'node:test';
