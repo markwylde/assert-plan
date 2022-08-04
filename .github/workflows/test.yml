@@ -24,6 +24,15 @@ jobs:
         node-version: ${{ matrix.node-version }}
 
     - run: npm install
-    - run: npm test
-      env:
-        CI: true
+
+    - uses: GuillaumeFalourd/assert-command-line-output@v2
+      with:
+        command_line: npm run test
+        contains: |-
+          # tests 5
+          # pass 2
+          # fail 3
+          # cancelled 0
+          # skipped 0
+          # todo 0
+        expected_result: PASSED
