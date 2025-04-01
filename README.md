@@ -1,4 +1,8 @@
 # assert-plan
+
+> Archived! This looks much nicer and is more recent:
+> https://github.com/mcollina/tspl
+
 The node assert library but with a plan method to check a certain amount of assertions are raised.
 
 ## Installation
